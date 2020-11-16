@@ -29,14 +29,15 @@ int isCorrect(const char line[102]) {
     //no P or no T
     if (indexOfP == -1 || indexOfT == -1) return 0;
 
-    //when no prefix A, must no suffix A
-    if (indexOfP == 0 && indexOfT != i - 1) return 0;
+    int prefixA = indexOfP;
+    int infixA = indexOfT - indexOfP - 1;
+    int suffixA = i - 1 - indexOfT;
 
     //no infix A
-    if (indexOfP == indexOfT - 1) return 0;
+    if (infixA == 0) return 0;
 
     //countOfPrefixA * countOfInfixA == countOfSuffixA
-    return indexOfP * (indexOfT - indexOfP - 1) == i - 1 - indexOfT;
+    return prefixA * infixA == suffixA;
 }
 
 int main() {
