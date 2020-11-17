@@ -19,3 +19,5 @@ add_executable(BasicLevel_1007 "BasicLevel/1007 素数对猜想.c")
 target_link_libraries(BasicLevel_1007 m)
 
 add_executable(BasicLevel_1008 "BasicLevel/1008 数组元素循环右移问题.c")
+
+add_executable(BasicLevel_1009 "BasicLevel/1009 说反话.c")
