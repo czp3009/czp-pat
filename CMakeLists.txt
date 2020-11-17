@@ -17,3 +17,5 @@ add_executable(BasicLevel_1006 "BasicLevel/1006 换个格式输出整数.c")
 
 add_executable(BasicLevel_1007 "BasicLevel/1007 素数对猜想.c")
 target_link_libraries(BasicLevel_1007 m)
+
+add_executable(BasicLevel_1008 "BasicLevel/1008 数组元素循环右移问题.c")
