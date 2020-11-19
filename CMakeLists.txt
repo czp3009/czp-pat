@@ -30,3 +30,5 @@ add_executable(BasicLevel_1012 "BasicLevel/1012 数字分类.c")
 
 add_executable(BasicLevel_1013 "BasicLevel/1013 数素数.c")
 target_link_libraries(BasicLevel_1013 m)
+
+add_executable(BasicLevel_1014 "BasicLevel/1014 福尔摩斯的约会.c")
