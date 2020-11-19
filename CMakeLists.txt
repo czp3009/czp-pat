@@ -27,3 +27,6 @@ add_executable(BasicLevel_1010 "BasicLevel/1010 一元多项式求导.c")
 add_executable(BasicLevel_1011 "BasicLevel/1011 A+B 和 C.c")
 
 add_executable(BasicLevel_1012 "BasicLevel/1012 数字分类.c")
+
+add_executable(BasicLevel_1013 "BasicLevel/1013 数素数.c")
+target_link_libraries(BasicLevel_1013 m)
