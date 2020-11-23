@@ -34,3 +34,5 @@ target_link_libraries(BasicLevel_1013 m)
 add_executable(BasicLevel_1014 "BasicLevel/1014 福尔摩斯的约会.c")
 
 add_executable(BasicLevel_1015 "BasicLevel/1015 德才论.c")
+
+add_executable(BasicLevel_1016 "BasicLevel/1016 部分A+B.c")
